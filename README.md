@@ -1,6 +1,6 @@
-# 🌊 Ocean Hazard Watch - Integrated Coastal Monitoring System
+# 🌊 CoastalWatch - Integrated Coastal Monitoring System
 
-Ocean Hazard Watch is a comprehensive coastal monitoring system that enables citizens to report ocean hazards, view real-time alerts, and support coastal safety through advanced monitoring technology. The system consists of a modern React frontend, Node.js backend API, and a central dashboard for easy navigation between services.
+CoastalWatch is a comprehensive coastal monitoring system that enables citizens to report ocean hazards, view real-time alerts, and support coastal safety through advanced monitoring technology. The system consists of a modern React frontend, Node.js backend API, and a central dashboard for easy navigation between services.
 
 ## 🎯 Features
 
@@ -153,13 +153,13 @@ Once all services are running, you can access:
 | Service                   | URL                   | Description                                            |
 | ------------------------- | --------------------- | ------------------------------------------------------ |
 | **🎛️ Main Dashboard**     | http://localhost:5000 | Central hub showing service status with launch buttons |
-| **🌊 Ocean Hazard Watch** | http://localhost:5173 | Main application - report hazards and view alerts      |
+| **🌊 CoastalWatch** | http://localhost:5173 | Main application - report hazards and view alerts      |
 | **⚙️ Backend API**        | http://localhost:4000 | REST API endpoints and health checks                   |
 
 ### 🎯 Recommended Usage Flow:
 
 1. **Start with Dashboard** (http://localhost:5000) to see all services
-2. **Click "Launch Service"** for Ocean Hazard Watch to open the main app
+2. **Click "Launch Service"** for CoastalWatch to open the main app
 3. **Use the main app** to:
    - View the interactive hazard map with test data
    - Submit hazard reports
@@ -501,3 +501,4 @@ This project is licensed under the MIT License.
 **🌊 Happy Coastal Monitoring! 🌊**
 
 For additional support or questions, please check the individual service documentation in the `backend/` and `frontend/` directories.
+
